@@ -9,81 +9,140 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="#" id="logo"><img src="img/logo.png" alt="logo-website"></a>
+<header>
+    <nav>
+        <a href="index.html" id="logo"><img src="img/logo.png" alt="Logo website"></a>
+        <ul>
+            <li>
+                <a href="index.html">HOME</a>
+            </li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="vehicles.html">VEHICLES</a></li>
+            <li><a href="rentals.html">RENTALS</a></li>
+        </ul>
+        <a href="contact.html">CONTAC US</a>
+    </nav>
+    <nav class="mobile">
+        <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
+        <button onclick="menuMobile()"><i class="fa-solid fa-bars"></i></button>
+    </nav>
+    <div id="cont-menu-mobile">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT US</a>
+        <a href="vehicles.html">VEHICLES</a>
+        <a href="rentals.html">RENTALS</a>
+        <a href="contact.html">CONTAC US</a>
+    </div>
+    <div id="hero-about">
+        <h1>ABOUT US</h1>
+        
+    </div>
+</header>
+<main>
+<section id="equipo-empresa">
+    <div class="titulo-equipo" data-aos="fade-up" data-aos-duration="1000">
+        <h2>MEET OUR TEAM</h2>
+        <p>We are passionate professionals committed to providing the best car rental experience.</p>
+    </div>
+
+    <div class="equipo" data-aos="fade-up" data-aos-duration="1500">
+        <div class="tarjetas-miembros">
+            <img src="img/member1.jpg" alt="Miembre de equipo">
+            <h3>ALEX SMITH</h3>
+            <p>Customer Service Manager</p>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="tarjetas-miembros">
+            <img src="img/member2.jpg" alt="Miembre de equipo">
+            <h3>SARA JONES</h3>
+            <p>Fleet Supervisor</p>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="tarjetas-miembros">
+            <img src="img/member3.jpg" alt="Miembre de equipo">
+            <h3>MICHAEL LEE</h3>
+            <p>Operations Director</p>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="testimonials">
+    <div class="cont-testimonios" data-aos="fade-up" data-aos-duration="1000">
+        <h2>WHAT OUR CLIENTS SAY</h2>
+        <p>Real experiences from real customers who have used our car rental service.</p>
+    </div>
+
+    <div class="tarjetas-testi" data-aos="fade-up" data-aos-duration="1500">
+        <div class="tarjetas">
+            <p>"Driveways made my vacation stress-free. The car was clean, reliable, and the staff was super friendly!"</p>
+            <h4>- Emily R., Miami</h4>
+        </div>
+        <div class="tarjetas">
+            <p>"I use Driveways for business trips. Booking is fast, prices are fair, and their support team is top-notch."</p>
+            <h4>- Carlos G., Bogotá</h4>
+        </div>
+        <div class="tarjetas">
+            <p>"Excellent service! The car selection is great, and the rental process is smooth and efficient."</p>
+            <h4>- Julia M., Toronto</h4>
+        </div>
+    </div>
+</section>
+</main>
+<footer>
+    <div class="fila">
+        <div class="col-footer" data-aos="fade-up" data-aos-duration="1000">
+            <a href="#" id="Logo Empresa"><img src="img/Logo-w.png" alt="Logo Empresa"></a>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, fugit.</p>
             <ul>
-                <li data-aos="fade-down" data-aos-duration="1000" >
-                    <a href="index.html">HOME</a>
-                </li>
-                <li data-aos="fade-down" data-aos-duration="1200" ><a href="about.html">ABOUT US</a></li>
-                <li data-aos="fade-down" data-aos-duration="1400" ><a href="vehicle.html">VEHICLE</a></li>
-                <li data-aos="fade-down" data-aos-duration="1600"><a href="rentals.html">RENTALS</a></li>    
+                <a href="#">FB</a>
+                <p> - </p>
+                <a href="#">IG</a>
+                <p> - </p>
+                <a href="#">LI</a>
+                <p> - </p>
+                <a href="#">YT</a>
+                <p> - </p>
+                <a href="#">TW</a>
             </ul>
-            <a href="contact.html" data-aos="fade-down" data-aos-duration="1800" >CONTACT US</a>
-        </nav>
-        <nav class="mobile" data-aos="fade-left" data-aos-duration="700">
-            <a href=""><img src="img/logo.png" alt=""></a>
-            <button onclick="menuMobile ()"><i class="fa-solid fa-bars"></i></button>
-        <div id="cont-menu-mobile" >
-            <a href="index.html">HOME</a>
-            <a href="about.html">ABOUT US</a>
-            <a href="vehicle.html">VEHICLE</a>
-            <a href="rentals.html">RENTALS</a>
-            <a href="contact.html">CONTACT US</a>
         </div>
-        </nav>
-        <div id="hero-about">
-            <h1>ABOUT US</h1>
+        <div class="col-footer" data-aos="fade-up" data-aos-duration="2000">
+            <h3><span><i class="fa-solid fa-clock"></i></span>WORKING HOURS</h3>
+            <p>Mon - Fri: 09:00 AM - 09:00 PM</p>
+            <p>Sat: 09:00 AM - 07:00 PM</p>
+            <p>Sun: Closed</p>
         </div>
-    </header>
-    <main>
-    
-        <!-- debe tener una seccion de home agregar 2 secciones en esta parte y en las otras que creamos.y en la de vehiculos agregar como minimos 12 vehiculos -->
-
-    </main>
-
-
-
-
-    <footer>
-        <div class="fila">
-            <div class="col-footer">
-                <a href="#" alt ="logo de la empresa"><img src="img/Logo-w.png" alt="logo de la empresa"></a>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, iure?</p>
-                <ul>
-                    <a href="#"> FB </a>
-                    <p>-</p>
-                    <a href="#"> IG </a>
-                    <p>-</p>
-                    <a href="#"> LI </a>
-                    <p>-</p>
-                    <a href="#"> YT </a>
-                    <p>-</p>
-                    <a href="#"> TW </a>
-                </ul>
-            </div>
-            <div class="col-footer">
-                <h3><i class="fa-solid fa-clock"></i> WORKING HOURS</h3>
-                <P>Mon - Fri : 09:00 AM - 09:00 PM</P>
-                <P>Sat : 09:00 AM - 07:00 PM</P>
-                <P>Sun : Closed</P>
-            </div>
-            <div class="col-footer">
-                <h3><i class="fa-regular fa-circle-user"></i> QUICK CONTACT</h3>
-                <P>Office : 42 Marine Parade, Australia</P>
-                <P>Mail : info@8pxlstudio.com</P>
-                <P>Phone : + 0123456789</P>
-            </div>
+        <div class="col-footer" data-aos="fade-up" data-aos-duration="3000">
+            <h3><span><i class="fa-regular fa-circle-user"></i></span>QUICK CONTACT</h3>
+            <p>Office: 42 Marine Parade, Australia</p>
+            <p>Mail: info@8pxlstudio.com</p>
+            <p>Phone: +0123456789</p>
         </div>
-        <hr>
-        <div class="fila-info">
-            <p>Copyright © 2025 Driveways. All Right Reserved.</p>
-            <p>privacy policy | Terms of Service</p>
+    </div>
+    <hr>
+    <div class="fila-info">
+        <p>Copyright © 2025 Driveways. All Rights Reserved</p>
+        <p>Privacy Policy / Terms of Service</p>
+    </div>
+</footer>
+    <div id="modal-2">
+        <div class="panel">
+            <h2>CONOCE NUESTROS MEJORES COCHES PARA QUE ELIJAS CON CONFIANZA</h2>
+            <button onclick="modalVideoAbout()"><i class="fa-regular fa-circle-xmark"></i></button>
+            <iframe width="100%" height="450" src="https://www.youtube.com/embed/YuzClM_OAO0?si=rzLdOvTVUylOioyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
-    </footer>
+    </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="js/main.js"></script>
     <script>AOS.init();</script>
+    <script src="js/main.js"></script>
 </body>
 </html>

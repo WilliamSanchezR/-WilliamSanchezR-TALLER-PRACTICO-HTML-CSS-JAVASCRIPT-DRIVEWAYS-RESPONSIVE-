@@ -615,6 +615,7 @@ padding-left: 50px;
 display: flex;
 justify-content: space-between;
 padding: 60px 20px;
+background-color: red;
 }
 
 
@@ -805,6 +806,81 @@ position: relative;
 clip-path: polygon(6% 0, 100% 0, 100% 100%, 0 100%, 0 14%);
 }
 
+#car-rentals {
+width: 100%;
+position: relative;
+padding: 150px 5% 100px;
+text-align: center;
+}
+
+#car-rentals h3{
+color: var(--third-color);
+font-size: 22px;
+font-weight: 400;
+letter-spacing: 2px;
+margin-bottom: 10px;
+
+}
+
+#car-rentals h2{
+color: var(--secondary-color);
+font-size: 50px;
+font-weight: 800;
+margin-bottom: 40px;
+}
+
+#car-rentals .fila{
+width: 93%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+position: absolute;
+top: 380px;
+left: 5%;
+}
+
+
+#car-rentals .fila .item{
+width: 35%; 
+display: flex;    
+text-align: left;
+flex-wrap: wrap;
+margin-bottom: 130px;
+}
+
+#car-rentals .item span{
+width: 60px;
+height: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: var(--secondary-color);
+clip-path: polygon(70% 0, 100% 27%, 100% 100%, 0 100%, 0 0);
+}
+
+#car-rentals span i{
+color: var(--bg-white);
+font-size: 22px;
+}
+
+#car-rentals .info{
+width: 80%;
+padding-left: 15px;
+padding-right: 15px;
+
+}
+
+#car-rentals .info h4{
+font-size: 20px;
+color: var(--secondary-color);
+font-weight: 800;
+margin-bottom: 15px;
+}
+
+#car-rentals .info p{
+font-size: 16px;
+color: var(--text-color);
+}
 
 
 .col-car .left {
@@ -816,7 +892,7 @@ position: relative;
 
 .col-car .left img {
 position: absolute;
-left: -110px;
+left: -120px;
 bottom: 12%;
 }
 
@@ -898,153 +974,6 @@ color: var(--bg-white);
 .col-car hr{
 margin: 20px 0;
 }
-
-#car-rentals {
-width: 100%;
-position: relative;
-padding: 150px 5% 100px;
-text-align: center;
-}
-
-#car-rentals h3{
-color: var(--third-color);
-font-size: 22px;
-font-weight: 400;
-letter-spacing: 2px;
-margin-bottom: 10px;
-
-}
-
-#car-rentals h2{
-color: var(--secondary-color);
-font-size: 50px;
-font-weight: 800;
-margin-bottom: 40px;
-}
-
-#car-rentals .fila{
-width: 93%;
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-position: absolute;
-top: 380px;
-left: 5%;
-}
-
-
-#car-rentals .fila .item{
-width: 35%; 
-display: flex;    
-text-align: left;
-flex-wrap: wrap;
-margin-bottom: 130px;
-}
-
-#car-rentals .item span{
-width: 60px;
-height: 60px;
-display: flex;
-align-items: center;
-justify-content: center;
-background: var(--secondary-color);
-clip-path: polygon(70% 0, 100% 27%, 100% 100%, 0 100%, 0 0);
-}
-
-#car-rentals span i{
-color: var(--bg-white);
-font-size: 22px;
-}
-
-#car-rentals .info{
-width: 80%;
-padding-left: 15px;
-padding-right: 15px;
-
-}
-
-#car-rentals .info h4{
-font-size: 20px;
-color: var(--secondary-color);
-font-weight: 800;
-margin-bottom: 15px;
-}
-
-#car-rentals .info p{
-font-size: 16px;
-color: var(--text-color);
-}
-
-/* RENTALS */
-
-/* Why Choose Us Section */
-.why-choose-us {
-padding: 60px 20px;
-background-color: #f0f4f8;
-}
-
-.why-choose-us h2{
-color: var(--secondary-color);
-font-size: 50px;
-font-weight: 900;
-width: 100%;
-text-align: center;
-justify-content: center;
-}
-
-.why-choose-us p{
-width: 100%;
-text-align: center;
-justify-content: center;
-color: var(--third-color);
-font-weight: 500;
-font-size: 20px;
-}
-
-.why-choose-us .feature-card span i{
-font-size: 40px;
-margin-bottom: 20px;
-}
-
-.features-grid {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-gap: 30px;
-margin-top: 40px;
-}
-
-.feature-card {
-background: #fff;
-padding: 30px 20px;
-border-radius: 15px;
-text-align: center;
-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-transition: transform 0.3s;
-}
-
-.feature-card:hover {
-transform: translateY(-8px);
-}
-
-.feature-card img {
-margin-bottom: 20px;
-}
-
-.feature-card h3 {
-font-size: 20px;
-margin-bottom: 10px;
-color: var(--secondary-color);
-}
-
-.feature-card p {
-font-size: 1rem;
-color: #666;
-align-items: center;
-justify-content: center;
-width: 100%;
-}
-
-
 
 #brands{
 width: 100%;
@@ -1509,6 +1438,106 @@ font-size: 14px;
 font-weight: 400;
 }
 
+/* INDEX ABOUT */
+
+#equipo-empresa {
+    padding: 80px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    width: 100%;
+}
+.titulo.equipo h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.titulo.equipo p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+}
+.equipo {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.tarjetas-miembros {
+    background: white;
+    padding-top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    max-width: 250px;
+}
+.tarjetas-miembros img {
+    width: 100%;
+    border-radius: 10%;
+    margin-bottom: 15px;
+}
+.tarjetas-miembros h3 {
+    margin: 10px 0 5px;
+}
+.tarjetas-miembros p {
+    font-size: 10px;
+    color: #777;
+}
+.social-links a {
+    margin: 0 5px;
+    color: #0077b5;
+    font-size: 13px;
+}
+
+#testimonials {
+    padding: 80px 20px;
+    background: #fff;
+    text-align: center;
+    padding-left: 13%;
+    width: 100%;
+}
+
+.cont-testimonios {
+    width: 100%;
+    padding: 20px 5%;
+}
+
+.cont-testimonios h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-right: 80px;
+}
+
+.cont-testimonios p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+    text-align: center;
+    padding-right: 80px;
+}
+
+.tarjetas-testi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.tarjetas {
+    background-color: #f4f4f4;
+    padding: 30px;
+    max-width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-style: italic;
+    position: relative;
+}
+
+.tarjetas h4 {
+    margin-top: 15px;
+    color: #333;
+    font-style: normal;
+}
 
 
 /* EL CODIGO DEL RESPONSIVE QUE VAMOS A REALIZAR SE HARA A PARTIR DE RANGOS DE TAMAÑOS POR DISPOSITIVOS */
@@ -1523,8 +1552,6 @@ font-weight: 400;
 @media screen and (min-width: 1025px) and (max-width: 1920px){
 
 }
-
-
 
 /* ESTILOS TABLET */
 
@@ -1733,8 +1760,6 @@ footer .fila-info{
 display: block;
 }
 }
-
-
 
 /* ESTILOS SMARPHONE  */
 
@@ -2145,7 +2170,116 @@ display: block;
 .cont-vehiculo img{
 width: 100%;    
 }
-
-
-
 }
+
+#como-trabajamos {
+    padding: 80px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.titulo-traba {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.subt-traba {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.pasos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.pasos .paso {
+    max-width: 260px;
+    background-color: #f9f9f9;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.pasos .paso:hover {
+    transform: translateY(-5px);
+}
+
+.paso span {
+    font-size: 2rem;
+    color: #333;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.paso h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.paso p {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+#beneficios {
+    padding: 80px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.titulo-bene {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.subt-bene {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.beneficios-tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.tarjetas-bene {
+    max-width: 260px;
+    background-color: #f9f9f9;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.tarjetas-bene:hover {
+    transform: translateY(-5px);
+}
+
+.tarjetas-bene span {
+    font-size: 2rem;
+    color: #333;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.tarjetas-bene h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.tarjetas-bene p {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+
